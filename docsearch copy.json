@@ -1,0 +1,27 @@
+{
+  "index_name": "docsearch",
+  "start_urls": ["https://paulapplegate.com"],
+  "sitemap_urls": ["https://paulapplegate.com/sitemap.xml"],
+  "stop_urls": [],
+  "selectors": {
+	"lvl0": {
+	  "selector": ".DocSearch-lvl0",
+	  "global": true,
+	  "default_value": "Documentation"
+	},
+	"lvl1": {
+	  "selector": ".DocSearch-lvl1",
+	  "global": true,
+			  defaultValue: "Documentation",
+			},
+			lvl2: ["article h2", "main h2", "h2"],
+			lvl3: ["article h3", "main h3", "h3"],
+			lvl4: ["article h4", "main h4", "h4"],
+			lvl5: ["article h5", "main h5", "h5"],
+			lvl6: ["article h6", "main h6", "h6"],
+		  },
+  "custom_settings": {
+	"attributesForFaceting": ["language", "version"]
+  },
+  "nb_hits": "OUTPUT OF THE CRAWL"
+}
