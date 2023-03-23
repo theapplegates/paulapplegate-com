@@ -9,8 +9,8 @@ layout: page
 <div id="docsearch"></div>
 <script type="text/javascript">
   docsearch({
-  appId:'5HIJVR5XOH',
-  apiKey:'132f68dcd6d47a131e9e98a20a039598',
+  appId:'57H4C3T2LL',
+  apiKey:'a5ad50b3c6b7e65391d478e1d132e75a',
   indexName:'docsearch',
   container:'#docsearch',
   debug:'true' // Set debug to true if you want to inspect the modal
