@@ -9,7 +9,7 @@ layout: page
 <div id="docsearch"></div>
 <script type="text/javascript">
   docsearch({
-  appId:'HDBI4RYCIO',
+  appId:'57H4C3T2LL',
   apiKey:'1fe7a42a5fa38da0280dd29bf0a22a91',
   indexName:'docsearch',
   container:'#docsearch',
