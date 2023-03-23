@@ -1,6 +1,6 @@
 ---
 title: 'Me and the Junior Partner Pyramid'
-description: 'When you're ten and on a game show.'
+description: 'Ten and on a game show.'
 date: 2023-03-17
 ---
 
