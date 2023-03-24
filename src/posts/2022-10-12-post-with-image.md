@@ -6,24 +6,42 @@ date: 2022-10-12
 
 This starter uses Eleventy's build-time image transformations. Find more info on https://www.11ty.dev/docs/plugins/image/ and edit settings in `config/shortcodes/imagePlaceholder`.
 
-Syntax:
+## Syntax
 
 {% raw %}
 
 ```
-{% imagePlaceholder "path to image", "alt text", "caption - optional" %}
+{% imagePlaceholder "path to image", "alt text", "caption - optional!" %}
 ```
 
 {% endraw %}
 
-## Image with caption
+Or add your own `sizes` attribute (note how I set an empty string for the caption):
 
-{% imagePlaceholder "./src/assets/images/opengraph-default.jpg", "Alt... The preview image for social media", "Caption.. An interesting caption." %}
+{% raw %}
 
+```
+{% imagePlaceholder "path to image", "alt text", "", "(min-width:30em)  50vw, 100vw" %}
+```
 
-{% imagePlaceholder "./src/assets/images/Real_Ant.jpg", "Alt... An ant won a Nikon photography contest", "Caption.. A winning ant." %}
+{% endraw %}
 
-{% imagePlaceholder "./src/assets/images/TimeTravel-Science.jpg", "Some time travel advice", "Don't forget your cheat sheet when time traveling." %}
+### Example image with a caption
 
+{% imagePlaceholder "./src/assets/images/opengraph-default.jpg", "The preview for social media", "An interesting caption text." %}
 
-{% imagePlaceholder "./src/assets/images/train-snow.jpg", "A beautiful shot of a train in the Winter", "Nature and modern man's train." %}
+## CSS
+
+You can change the CSS for the page and blog post images in `./src/assets/css/blocks/page.css` and `./src/assets/css/blocks/blog.css`:
+
+```css
+.page img {
+  width: 100%;
+  height: auto;
+}
+
+.blog img {
+  width: 100%;
+  height: auto;
+}
+```

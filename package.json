@@ -1,6 +1,6 @@
 {
   "name": "eleventy-excellent",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Eleventy starter based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
   "author": "Lene Saile",
   "license": "ISC",
@@ -27,7 +27,6 @@
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
-    "sharp": "^0.31.3",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
