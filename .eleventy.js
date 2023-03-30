@@ -46,8 +46,33 @@ const {slugifyString} = require('./config/utils');
 const {escape} = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
+const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
+const { eleventyImagePlugin } = require("@11ty/eleventy-img");
 
 module.exports = eleventyConfig => {
+  // WebC
+  eleventyConfig.addPlugin(eleventyWebcPlugin, {
+    components: [
+      // …
+      // Add as a global WebC component
+      "npm:@11ty/eleventy-img/*.webc",
+    ]
+  });
+  // Image plugin
+  eleventyConfig.addPlugin(eleventyImagePlugin, {
+    // Set global default options
+    formats: ["avif", "webp", "jpeg"],
+    urlPath: "/img/",
+
+    // Notably `outputDir` is resolved automatically
+    // to the project output directory
+
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async"
+    }
+  });
+
   // 	--------------------- Custom Watch Targets -----------------------
   eleventyConfig.addWatchTarget('./src/assets');
   eleventyConfig.addWatchTarget('./utils/*.js');
