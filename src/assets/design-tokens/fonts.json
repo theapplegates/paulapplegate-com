@@ -5,17 +5,17 @@
     {
       "name": "Display",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["EB Garamond"]
+      "value": ["Roboto Serif"]
     },
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["EB Garamond"]
+      "value": ["Roboto Serif"]
     },
     {
       "name": "Mono",
       "description": "Expressive sections, like quotes",
-      "value": ["RobotoMono", "monospace"]
+      "value": ["RobotoMono", "monospace", "Roboto Serif"]
     }
   ]
 }
