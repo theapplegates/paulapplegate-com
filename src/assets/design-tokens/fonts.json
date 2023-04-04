@@ -5,12 +5,12 @@
     {
       "name": "Display",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Roboto Serif"]
+      "value": ["Archivo"]
     },
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Roboto Serif"]
+      "value": ["Archivo"]
     },
     {
       "name": "Mono",
