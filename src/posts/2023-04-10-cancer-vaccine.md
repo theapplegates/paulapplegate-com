@@ -41,6 +41,8 @@ Andre Pain/AFP via Getty Images
 
 "The development of several COVID vaccines in record time showed the possibilities of mRNA vaccine technology, which could one day become an effective treatment to help beat cancer," Dr. Sam Godfrey, research information lead at Cancer Research U.K., said.
 
+![Cancer vaccine ](https://applegate-paul.mo.cloudinary.net/zoom/How-Cancer-Vaccine-Works.jpg)
+
 "Just as science was our route out of the pandemic, science is our route to beating cancer. We're optimistic that, in the future, we will see mRNA technology and other exciting vaccine approaches giving doctors more treatment options to help beat cancer," Godfrey added.
 
 Many other pharmaceutical companies, including vaccine-maker Moderna, are also working on mRNA vaccines to target specific cancers.
