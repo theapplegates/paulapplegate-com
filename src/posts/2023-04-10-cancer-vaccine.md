@@ -21,7 +21,7 @@ The husband-and-wife duo founded BioNTech in 2008 originally to develop and prod
 
 Scientists have been working on a cancer vaccine for decades. One approach is to teach the immune system to recognize and destroy cancer cells -- ideally preventing cancer from growing in the first place. Further along are other types of vaccines designed to treat people who already have cancer, including one FDA-approved cancer vaccine for people with advanced prostate cancer.
 
-![Biotech Headquarters](https://applegate-paul.mo.cloudinary.net/zoom/biontech-development-_hpMain_20221017-061133_16x9_992.jpg)
+![Biotech](https://applegate-paul.mo.cloudinary.net/zoom/biontech-hq-_hpEmbed_20221017-061152_3x2_992.jpg)
 
 PHOTO: Corporate flags wave outside the BioNTeCH research institute in Mainz, Rhineland-Palatinate, western Germany, on Oct. 5, 2022. 
 Corporate flags wave outside the BioNTeCH research institute in Mainz, Rhineland-Palatinate, western Germany, on Oct. 5, 2022.
