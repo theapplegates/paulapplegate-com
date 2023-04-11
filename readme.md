@@ -66,7 +66,7 @@ https://eleventy-excellent.netlify.app/
 - Optional: rename `.env-sample` to `.env` and set custom URL for local development.
 - Optional: Change fonts. This starter uses three fonts, Red Hat Display, Inter and Roboto Mono. You can add or delete fonts in `src/assets/fonts`. I recommend creating font subsets for performance, for example using the [Fontsquirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator). Next, edit `src/assets/css/global/fonts.css`. Add your new font aliases in `src/assets/design-tokens/fonts.json`. Finally, in `src/_layouts/base.njk` edit the font preloads. Roboto Mono is only used for code blocks. It's preload is set directly in the post layout: `src/_layouts/post.njk`.
 
-## Deploy directly to Netlify
+## Hi Deploy directly to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/madrilene/eleventy-excellent)
 
