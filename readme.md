@@ -2,7 +2,7 @@
 
 Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
 
-If you end up using this starter, feel free to send me a link, I'd love to see it!
+If -- test you end up using this starter, feel free to send me a link, I'd love to see it!
 Also let me know if you miss any features. Currently in planning: dark mode, inlining CSS and JS.
 
 - [Eleventy Excellent](#eleventy-excellent)
