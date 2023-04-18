@@ -5,12 +5,12 @@
     {
       "name": "Display",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Archivo"]
+      "value": ["Shantell Sans"]
     },
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Archivo"]
+      "value": ["Shantell Sans"]
     },
     {
       "name": "Mono",
