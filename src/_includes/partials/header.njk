@@ -1,24 +1,30 @@
-<a href="#main" class="skip-link">{{ meta.skipContent }}</a>
 
-<div id="docsearch"></div>
+
+<a href="#main" class="skip-link">{{ meta.skipContent }}</a>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"
+/>
+
 <header class="wrapper | relative" role="banner">
   <div class="site-head | ontop spot-color-primary">
     {% set activePage = page.url | url %}
-   <a href="/" class="logo site-head__brand | no-underline" {% if activePage === '/' %} aria-current="page" {% endif %}></a>
-      
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.3.3/dist/style.min.css"></pre></li>
-      <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.3.3/dist/umd/index.min.js"></script>
-      <script type="text/javascript">
-        docsearch({
-        appId:'57H4C3T2LL',
-        apiKey:'a5ad50b3c6b7e65391d478e1d132e75a',
-        indexName:'docsearch',
-        container:'#docsearch',
-        debug:'true' // Set debug to true if you want to inspect the modal
-        });
-      </script>
-    
+   <a href="/" class="logo site-head__brand | no-underline" {% if activePage === '/' %} aria-current="page" {% endif %}>
+  <div id="docsearch"></div> {{ meta.siteName }}
+    </a>
+
 
     {% include "partials/menu.njk" %}
-   </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.3.3/dist/style.min.css"></pre></li>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.3.3/dist/umd/index.min.js"></script>
+    <script type="text/javascript">
+      docsearch({
+      appId:'57H4C3T2LL',
+      apiKey:'a5ad50b3c6b7e65391d478e1d132e75a',
+      indexName:'docsearch',
+      container:'#docsearch',
+      debug:'true' // Set debug to true if you want to inspect the modal
+      });
+    </script>
+  </div>
 </header>
