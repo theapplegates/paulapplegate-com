@@ -13,3 +13,8 @@ The good:
 
 The bad:
 {% imagePlaceholder "./src/assets/images/bad-algolia-modal.png", "The Algolia docsearch modal", "Searching." %}
+
+
+Best
+
+![Two planes](https://applegate-paul.mo.cloudinary.net/zoom/G800-G400.jpg)
