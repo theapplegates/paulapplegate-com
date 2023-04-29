@@ -28,6 +28,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@11ty/eleventy-plugin-webc": "^0.10.1",
+    "@types/markdown-it": "*",
     "tailwindcss": "^3.3.1"
   },
   "devDependencies": {
