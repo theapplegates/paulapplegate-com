@@ -48,8 +48,13 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
 const { eleventyImagePlugin } = require("@11ty/eleventy-img");
+const execSync = require('child_process').execSync;
 
 module.exports = eleventyConfig => {
+  eleventyConfig.on('eleventy.after', () => {
+  execSync(`npx pagefind --source dist --glob \"**/*.html\"`, { encoding: 'utf-8' })
+  })
+
   // WebC
   eleventyConfig.addPlugin(eleventyWebcPlugin, {
     components: [
