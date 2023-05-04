@@ -51,10 +51,6 @@ const { eleventyImagePlugin } = require("@11ty/eleventy-img");
 const execSync = require('child_process').execSync;
 
 module.exports = eleventyConfig => {
-  eleventyConfig.on('eleventy.after', () => {
-  execSync(`npx pagefind --source dist --glob \"**/*.html\"`, { encoding: 'utf-8' })
-  })
-
   // WebC
   eleventyConfig.addPlugin(eleventyWebcPlugin, {
     components: [
