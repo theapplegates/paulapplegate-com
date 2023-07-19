@@ -5,12 +5,14 @@
     {
       "name": "Display",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Shantell Sans"]
+      "value": ["Pathway Extreme"]
+
     },
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Shantell Sans"]
+
+      "value": ["Pathway Extreme"]
     },
     {
       "name": "Mono",
