@@ -135,3 +135,7 @@ a:hover {
     display: none;
   }
 }
+footer .centered-text {
+  text-align: center;
+  margin: 0 auto;
+}
