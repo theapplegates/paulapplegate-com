@@ -1,0 +1,20 @@
+.gallery dialog {
+  border-radius: var(--border-radius);
+  inset: revert;
+}
+
+.gallery dialog + button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Don't indicate interactivity without JS */
+is-land:not(:defined) .gallery dialog + button {
+  cursor: default;
+}
+
+.gallery dialog::backdrop {
+  background-image: var(--gradient-stripes);
+  opacity: 0.85;
+  filter: brightness(50%);
+}
