@@ -5,7 +5,7 @@ address: |-
   12345, city
   Tel: +34 928231911
 platforms:
-  github: 'https://github.com/theapplegates/eleventy-excellent'
+  github: 'https://github.com/theapplegates/paulapplegate-com.git'
   mastodon: 'https://front-end.social/'
   bluesky: 'https://bsky.app/profile/'
   kofi: 'https://ko-fi.com/'
