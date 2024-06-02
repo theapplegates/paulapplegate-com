@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--font-base);
-  font-size: var(--size-step-min-2);
+  font-size: var(--size-step-min-1);
   font-weight: var(--font-regular);
   line-height: var(--leading-standard);
   color: var(--color-text);
